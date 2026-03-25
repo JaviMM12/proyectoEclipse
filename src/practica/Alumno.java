@@ -16,4 +16,10 @@ public class Alumno {
         return "Alumno: " + nombre + " " + apellido + " - DNI: " + dni;
     }
     
+    public Alumno() {
+        this.nombre = "Nombre por defecto";
+        this.apellido = "Apellido por defecto";
+        this.dni = "00000000Z";
+    }
+    
 }
